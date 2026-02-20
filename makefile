@@ -18,9 +18,9 @@ exec : all
 	$(CXX) $(OPTIONS) -c  $< -o $@ $(INCS)
 	
 clean:
-	del $(OBJS) 
+	rm -r $(OBJS) 
 
 
 mrproper: clean
-	del testAll.exe
-	del result.xml
+	rm -f testAll.exe
+	rm -f result.xml
