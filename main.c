@@ -124,11 +124,11 @@ static void computePrice_moins12_mock_recupAge(void **state) {
 // pour chaque cas de test les résultats ont été analysés, même avant l'utilisation de l'age.h
 int main(void) {
     const struct CMUnitTest tests[] = {
-        // cmocka_unit_test(computePrice_plus12),
-        // cmocka_unit_test(computePrice_moins12),
-        // cmocka_unit_test(faux_true_computePrice_moins12),
-        // cmocka_unit_test(faux_equals_computePrice_moins12),
-        // cmocka_unit_test_setup(computePrice_plus12_setup, setup_custom),
+        cmocka_unit_test(computePrice_plus12),
+        cmocka_unit_test(computePrice_moins12),
+        cmocka_unit_test(faux_true_computePrice_moins12),
+        cmocka_unit_test(faux_equals_computePrice_moins12),
+        cmocka_unit_test_setup(computePrice_plus12_setup, setup_custom),
         cmocka_unit_test(computePrice_moins12_mock_recupAge)
     };
     //cmocka_set_message_output(CM_OUTPUT_XML);
