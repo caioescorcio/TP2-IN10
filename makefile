@@ -13,7 +13,7 @@ all: $(OBJS)
 	clear
 	
 exec : all
-	testAll.exe
+	./testAll.exe
 %.o: %.c
 	$(CXX) $(OPTIONS) -c  $< -o $@ $(INCS)
 	
