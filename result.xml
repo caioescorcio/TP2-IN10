@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite name="computePrice tests" time="0.000" tests="6" failures="5" errors="0" skipped="0" >
+    <testcase name="computePrice_plus12" time="0.000" >
+      <failure><![CDATA[No entries for symbol recupAge.
+main.c:63: error: Could not get value to mock function recupAge
+There were no previously returned mock values for this test.
+]]></failure>
+    </testcase>
+    <testcase name="computePrice_moins12" time="0.000" >
+      <failure><![CDATA[No entries for symbol recupAge.
+main.c:63: error: Could not get value to mock function recupAge
+There were no previously returned mock values for this test.
+]]></failure>
+    </testcase>
+    <testcase name="faux_true_computePrice_moins12" time="0.000" >
+      <failure><![CDATA[No entries for symbol recupAge.
+main.c:63: error: Could not get value to mock function recupAge
+There were no previously returned mock values for this test.
+]]></failure>
+    </testcase>
+    <testcase name="faux_equals_computePrice_moins12" time="0.000" >
+      <failure><![CDATA[No entries for symbol recupAge.
+main.c:63: error: Could not get value to mock function recupAge
+There were no previously returned mock values for this test.
+]]></failure>
+    </testcase>
+    <testcase name="computePrice_plus12_setup" time="0.000" >
+      <failure><![CDATA[No entries for symbol recupAge.
+main.c:63: error: Could not get value to mock function recupAge
+There were no previously returned mock values for this test.
+]]></failure>
+    </testcase>
+    <testcase name="computePrice_moins12_mock_recupAge" time="0.000" >
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -23,6 +23,5 @@ clean:
 
 mrproper: clean
 	rm -f testAll.exe
-	rm -f result.xml
 	rm -f *.gcda
 	rm -f *.gcno
