@@ -10,7 +10,7 @@ OPTIONS = -Wall -fexceptions -fprofile-arcs -ftest-coverage
 
 all: $(OBJS)
 	$(CXX) $(OPTIONS) $(INCS) -o testAll.exe $(OBJS) $(LDFLAGS)
-	cls
+	clear
 	
 exec : all
 	testAll.exe
