@@ -131,6 +131,6 @@ int main(void) {
         cmocka_unit_test_setup(computePrice_plus12_setup, setup_custom),
         cmocka_unit_test(computePrice_moins12_mock_recupAge)
     };
-    //cmocka_set_message_output(CM_OUTPUT_XML);
+    cmocka_set_message_output(CM_OUTPUT_XML);
     return cmocka_run_group_tests_name("computePrice tests",tests, setup, teardown);
 }
